@@ -11,14 +11,19 @@ button {
     border: 0;
 }
 
+body {
+    background: linear-gradient(to left, rgb(255, 193, 255), rgb(166, 221, 255));
+}
+
 .wrapper {
     margin: 100px auto;
     padding: 20px;
     width: 500px;
-    box-shadow: 0px 0px 10px rgb(185, 185, 185);
+    box-shadow: 1px 1px 5px rgb(109, 109, 109);
     border-radius: 30px;
     overflow: hidden;
-    background: linear-gradient(to right, rgb(255, 193, 255), rgb(166, 221, 255));
+    background-color: rgba(255, 255, 255, 0.1);
+    /* background: linear-gradient(to right, rgb(255, 193, 255), rgb(166, 221, 255)); */
 }
 
 .header {
@@ -30,24 +35,29 @@ button {
 
 .header h1 {
     margin: 10px;
-    font-size: 35px;
+    font-size: 45px;
     /* color: rgb(172, 115, 251); */
+    font-family: 'Dancing Script', cursive;
 }
 
 .main {
     /* background-color: orange  ; */
     height: auto;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .login {
     /* background-color:lightskyblue; */
     text-align: center;
     padding: 20px;
-    border-bottom: 1px thick double rgb(185, 136, 255);
+    border-bottom: 1px solid rgb(185, 136, 255);
 }
 
 .text {
-    border: 1px solid rgb(183, 183, 183)
+    border: 1px solid rgb(183, 183, 183);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 3px;
+    
 }
 
 .login .text , .btn {
@@ -72,9 +82,11 @@ button {
 }
 
 .login .btn {
-    background-color: rgb(185, 136, 255);
+    background-color: rgba(185, 136, 255 ,0.5);
     border-radius: 20px;
     margin: 20px;
+    height: 45px;
+    
 }
 
 .login .btn:hover {

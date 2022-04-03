@@ -2,9 +2,17 @@
     margin: 0 auto;
 }
 
+body {
+    background: linear-gradient(to right, rgb(255, 193, 255), rgb(166, 221, 255));
+}
+
 .wrapper {
     width: 800px;
-    background: linear-gradient(to right, rgb(255, 193, 255), rgb(166, 221, 255));
+    /* background: linear-gradient(to right, rgb(255, 193, 255), rgb(166, 221, 255)); */
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(109, 109, 109);
 }
 
 .header {
@@ -17,6 +25,7 @@
     text-align: center;
     padding: 30px;
     font-size: 35px;
+    font-family: 'Dancing Script', cursive;
 }
 
 .main {
@@ -25,6 +34,7 @@
 
 .contents {
     margin: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .chkimg {
@@ -45,6 +55,7 @@
     resize: none;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .textarea:focus {
@@ -57,6 +68,10 @@
 
 .agree {
     text-align: right;
+}
+
+.agree label {
+    font-size: 13px;
 }
 
 .footer {
@@ -73,8 +88,9 @@
     border: 0;
     background-color: rgb(185, 136, 255);
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: bold;
+    font-family: 'Dancing Script', cursive;
 }
 
 .btngo:hover {
